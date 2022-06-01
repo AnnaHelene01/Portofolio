@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 3em;
+}
+
+
+/*Project box */
+.project-box {
+    max-width: 900px;
+    min-height: 400px;
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 40px;
+    background-color: #CCCCCC;
+    border: 4px solid #ff4f4f;
+}
+
+.project-content {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* Portrett bilde */
+.portrett {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.project-txt {
+    margin-top: 50px;
+}
