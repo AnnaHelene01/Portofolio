@@ -5,3 +5,105 @@ h1 {
     margin-bottom: 40px;
     font-size: 3em;
 }
+
+/* Seksjon presentere prosjektet */
+.project-precent {
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 90px;
+}
+
+/* Bildet av prosjektet */
+.project-img {
+    text-align: center;
+}
+
+.style-img {
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Tekst design*/
+.project-txtarea {
+    margin-left: 70px;
+}
+
+h2, p {
+    color: white;
+}
+
+.brod-txt {
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+
+/* LINK TIL NETTSIDE SEKSJON */
+.link-header {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+/* Link knapper*/
+.link-btns {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.btn-readmore {
+    padding: 15px;
+    background-color: #ff4f4f;
+    border: #ff4f4f;
+    color: white;
+    width: 170px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn-readmore:hover {
+    background-color: white;
+    color: #ff4f4f;
+}
+
+
+/* RESPONSIV SIDE */
+@media (min-width: 550px) {
+    .style-img {
+        max-width: 450px;
+        max-height: 350px;
+        object-fit: cover;
+    }
+}
+
+
+@media (min-width: 855px) {
+    .project-precent {
+        grid-template-columns: auto auto;
+    }
+
+    .style-img {
+        max-width: 500px;
+        max-height: 450px;
+        object-fit: cover;
+        margin-left: 40px;
+    }
+
+    .project-txtarea {
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 1041px) {
+    .style-img {
+        max-width: 600px;
+        max-height: 500px;
+        object-fit: cover;
+        margin-left: 40px;
+    }
+}
