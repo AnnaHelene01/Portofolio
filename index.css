@@ -124,6 +124,14 @@ h1 {
 }
 
 /*Buttons i første seksjon */
+.btn-black {
+    color: black;
+}
+
+.btn-white {
+    color: white;
+}
+
 .fp-btns {
     margin-top: 30px;
 }
