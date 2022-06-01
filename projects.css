@@ -22,16 +22,33 @@ h1 {
     grid-template-columns: auto;
 }
 
-/* Portrett bilde */
-.portrett {
-    min-width: 250px;
-    min-height: 250px;
+/* Prosjekt bilde */
+.project-img-div {
+    text-align: center;
+}
+
+.project-img {
+    width: 250px;
+    height: 200px;
     object-fit: cover;
     margin-top: 40px;
 }
 
+.align-img {
+    margin-bottom: 40px;
+}
+
 .project-txt {
-    margin-top: 50px;
+    margin-top: 20px;
+}
+
+.project-txt > h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-txt > p {
+    padding: 20px;
 }
 
 .nth {
@@ -45,10 +62,23 @@ h1 {
     }
 
         /* Portrett bilde */
-        .portrett {
-            width: 300px;
+        .project-img {
+            width: 400px;
             height: 300px;
             object-fit: cover;
             margin-top: 40px;
+        }
+
+        .img-align {
+            margin-left: 40px;
+        }
+
+        .align-img {
+            margin-right: 40px;
+        }
+
+        .project-txt > h2 {
+            padding: 20px;
+            text-align: left;
         }
 }
