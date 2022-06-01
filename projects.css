@@ -55,6 +55,23 @@ h1 {
     margin-left: 50px;
 }
 
+/*Les mer knapp */
+.align-readmore-btn {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-readmore {
+    padding: 15px;
+    background-color: #ff4f4f;
+    border: #ff4f4f;
+    color: white;
+    width: 170px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+
 /*RESPONSIV SIDE */
 @media (min-width: 855px) {
     .project-content {
@@ -80,5 +97,11 @@ h1 {
         .project-txt > h2 {
             padding: 20px;
             text-align: left;
+        }
+
+        /*Les mer knapp */
+        .align-readmore-btn {
+            text-align: left;
+            margin-left: 20px;
         }
 }
