@@ -306,6 +306,11 @@ footer {
     font-size: 1.3rem;
     margin-bottom: 50px;
 }
+
+.footer-link {
+    color: white;
+}
+
   
 
   /*Responsiv tidslinje på skjermer som er MINDRE enn 600px i width */
