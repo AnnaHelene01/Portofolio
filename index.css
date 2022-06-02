@@ -75,7 +75,7 @@ nav li {
 .action {
     text-decoration: none;
     color: white;
-    background-color: #022859;
+    background-color: #ff4f4f;
     padding: 20px;
 }
 
@@ -86,7 +86,7 @@ header a {
 header a:hover {
     color:white;
     padding: 20px;
-    background-color: #022859;
+    background-color: #ff4f4f;
 }
 
 /* Første seksjon */
@@ -138,7 +138,7 @@ h1 {
 
 .btn-project {
     padding: 20px;
-    border: 2px solid #022859;
+    border: 2px solid #ff4f4f;
     background-color: white;
     width: 170px;
     font-size: 1.1rem;
@@ -146,7 +146,8 @@ h1 {
 
 .btn-contact {
     padding: 20px;
-    background-color:#022859;
+    background-color: #ff4f4f;
+    border: none;
     color: white;
     width: 170px;
     font-size: 1.1rem;
