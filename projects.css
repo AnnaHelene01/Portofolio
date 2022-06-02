@@ -4,6 +4,7 @@ h1 {
     margin-top: 50px;
     margin-bottom: 40px;
     font-size: 3em;
+    font-weight: bold;
 }
 
 
@@ -51,9 +52,6 @@ h1 {
     padding: 20px;
 }
 
-.nth {
-    margin-left: 50px;
-}
 
 /*Les mer knapp */
 .align-readmore-btn {
@@ -77,6 +75,10 @@ h1 {
 @media (min-width: 855px) {
     .project-content {
         grid-template-columns: auto auto;
+    }
+
+    .nth {
+        margin-left: 50px;
     }
 
         /* Portrett bilde */

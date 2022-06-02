@@ -2,8 +2,9 @@ h1 {
     text-align: center;
     color: white;
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 3em;
+    font-weight: bold;
 }
 
 /*Form med span som kommer opp for å vise eventuelle feilmeldinger til bruker */

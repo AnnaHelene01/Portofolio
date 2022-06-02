@@ -38,6 +38,10 @@ h2, p {
     margin-top: 20px;
 }
 
+.brod-txt > a {
+    color: #ff4f4f;
+}
+
 
 /* LINK TIL NETTSIDE SEKSJON */
 .link-header {
