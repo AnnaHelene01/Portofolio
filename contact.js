@@ -24,8 +24,8 @@ function validateForm(e) {
   let submittedName = fullName.value.trim(); 
   console.log("Name: " + submittedName); 
   nameMsg.innerHTML = ""; // Clear earlier messages
-  if (submittedName.length < 5) { // Check if name is long enough
-    nameMsg.innerHTML += "Navnet må være minst 5 bokstaver langt! "; 
+  if (submittedName.length < 3) { // Check if name is long enough
+    nameMsg.innerHTML += "Navnet må være minst 3 bokstaver langt! "; 
   }  
   if (/\d/.test(submittedName)) { // And make sure it don't contain any digits
     nameMsg.innerHTML += "Navnet kan ikke inneholde tegn! ";
@@ -35,8 +35,8 @@ function validateForm(e) {
   let submittedSubject = subject.value.trim();
   console.log("Subject: " + submittedSubject);
   subjectMsg.innerHTML = ""; //Clear earlier messages
-  if (submittedSubject.length < 15) {
-      subjectMsg.innerHTML += "Temaet må være minst 15 bokstaver langt!";
+  if (submittedSubject.length < 5) {
+      subjectMsg.innerHTML += "Temaet må være minst 55 bokstaver langt!";
   }
   if (/\d/.test(submittedSubject)) { //Make sure it dont contain any digits 
     subjectMsg.innerHTML += "Temaet kan ikke inneholde tegn!";

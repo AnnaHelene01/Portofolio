@@ -63,6 +63,8 @@ nav ul {
 nav li {
     display: block;
     padding: 20px 30px;
+    font-family: 'PT Serif', serif;
+    font-size: 1.1rem;
 }
 
 .logo {
@@ -111,16 +113,20 @@ header a:hover {
 h1 {
     margin-top: 50px;
     font-size: 4em;
-    font-weight: 500;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
 }
 
 .frontpage-header {
-    font-size: 5.5em;
+    font-size: 5em;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
 }
 
 .frontpage-text {
     font-size: 2em;
     margin-top: 10px;
+    font-family: 'PT Serif', serif;
 }
 
 /*Buttons i første seksjon */
@@ -140,8 +146,10 @@ h1 {
     padding: 20px;
     border: 2px solid #ff4f4f;
     background-color: white;
-    width: 170px;
+    width: 180px;
     font-size: 1.1rem;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
 }
 
 .btn-contact {
@@ -152,6 +160,8 @@ h1 {
     width: 170px;
     font-size: 1.1rem;
     margin-top: 10px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
 }
 
 .fp-img {
