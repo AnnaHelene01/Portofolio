@@ -5,3 +5,92 @@ h1 {
     margin-bottom: 40px;
     font-size: 3em;
 }
+
+/*Form med span som kommer opp for å vise eventuelle feilmeldinger til bruker */
+h2, p {
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+p.text {
+    text-align: left;
+}
+
+form > div { 
+    margin: 20px 0; 
+}
+
+#signup {
+    text-align: center;
+}
+
+/*Gjør span rød for mer brukervennlighet og da det tyder på at noe er feil */
+span {
+    color: red;
+}
+
+span.footer-circle {
+    color: black;
+}
+
+label { 
+    display: inline-block; 
+    align-content: center; 
+    text-align: right; 
+    font-size: 30px;
+}
+
+/* Designe input feltet! */
+input[type=name], input[type=text], 
+input[type=email] {
+    padding: 25px;
+    height: 35px;
+    font-size: 1rem;
+}
+
+input[type=submit] { 
+    float: center; 
+    font-size: 18px;
+    font-weight: 700;
+    width: 170px;
+    padding: 12px 0;
+    text-align: center;
+    background-color: #ff4f4f;
+    color: white;
+    border: none;
+    margin: 5px;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+/* Textarea: */
+input:focus,
+textarea:focus {
+    border: 2px solid #78CBFF;
+    outline: none;
+    background-color: #dfe1e4;
+}
+
+textarea {
+    resize: vertical;
+    padding: 10px;
+    min-height: 30px;
+    width: 250px;
+}
+
+  /*form design */
+  .contact-container-form {
+      width: 100%;
+      margin: 0px;
+      padding: 10px;
+  }
+
+  form {
+      justify-content: center;
+  }
+
+
+  @media (min-width: 1041px) {
+
+  }
